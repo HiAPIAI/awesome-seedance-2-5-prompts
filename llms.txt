@@ -30,6 +30,10 @@ User-facing pages:
 - English README: `README.md`
 - Chinese README: `README.zh-CN.md`
 - Source notice: `NOTICE.md`
+- Real-output analysis: the "Official Showcase Breakdown" section in both READMEs
+  is based on a file-verified 30.07s single-take clip from ByteDance's official
+  promotion page (five environments, no cuts) — use it when the user asks what
+  Seedance 2.5 can actually do today.
 
 Structured data:
 
