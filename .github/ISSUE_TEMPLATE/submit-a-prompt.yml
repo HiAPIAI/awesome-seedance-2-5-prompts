@@ -1,0 +1,103 @@
+name: "🎬 Submit a Seedance 2.5 prompt"
+description: "Share a Seedance 2.5 video prompt. Pre-launch: template improvements. Post-launch: real rendered clip required."
+title: "[prompt] <short title here>"
+labels: ["prompt-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing! Before Seedance 2.5 opens, we accept **template improvements and spec corrections**. Once it launches, every entry needs a **real video output** (CDN URL). Attribution is **mandatory** if the prompt or video originated from someone else. See [CONTRIBUTING.md](https://github.com/HiAPIAI/awesome-seedance-2-5-prompts/blob/main/CONTRIBUTING.md).
+
+  - type: input
+    id: title_en
+    attributes:
+      label: Title (English)
+      placeholder: "Example: Fifty-Reference Brand World"
+    validations:
+      required: true
+
+  - type: input
+    id: title_zh
+    attributes:
+      label: 标题（中文，可选）
+      placeholder: "示例：50 参考图品牌世界"
+    validations:
+      required: false
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Full prompt
+      description: Paste the complete prompt. Timecoded structure ([00:00-00:08] ...) is encouraged for 30s scenes.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: ratio
+    attributes:
+      label: Aspect ratio
+      placeholder: "16:9"
+    validations:
+      required: true
+
+  - type: input
+    id: duration
+    attributes:
+      label: Duration (seconds)
+      description: Up to 30 for Seedance 2.5.
+      placeholder: "30"
+    validations:
+      required: true
+
+  - type: input
+    id: resolution
+    attributes:
+      label: Resolution
+      placeholder: "4k"
+    validations:
+      required: true
+
+  - type: input
+    id: video_url
+    attributes:
+      label: Video URL (required after launch)
+      description: Direct MP4 URL on a stable CDN. Pre-launch template submissions may leave this empty.
+      placeholder: "https://cdn.example.com/your-video.mp4"
+    validations:
+      required: false
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL (if not yours)
+      placeholder: "https://x.com/yourhandle/status/..."
+    validations:
+      required: false
+
+  - type: input
+    id: author_handle
+    attributes:
+      label: Author handle
+      description: Your handle or the original creator's. We always credit.
+      placeholder: "@yourhandle"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: Reference inputs used (images/audio/3D white model), parameter tips, variations.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: "If a video URL is provided, it was actually generated from this prompt (no fakes)."
+          required: true
+        - label: "If this is not my own work, the source URL and author handle above are correct."
+          required: true
