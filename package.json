@@ -2,7 +2,7 @@
   "name": "awesome-seedance-2-5-prompts",
   "version": "0.1.0",
   "private": false,
-  "description": "Launch-ready bilingual Seedance 2.5 video prompt gallery — 30s single-take, 50-reference, native-4K templates, powered by HiAPI.",
+  "description": "Bilingual Seedance 2.5 prompt library and AI video case index for creators, developers, and agents, powered by HiAPI.",
   "type": "module",
   "scripts": {
     "test": "node scripts/validate.mjs"
@@ -17,6 +17,14 @@
     "video-generation",
     "text-to-video",
     "image-to-video",
+    "ai-video-prompts",
+    "seedance-prompts",
+    "seedance-2-5-prompts",
+    "seedance-2-5-api",
+    "seedance-python-sdk",
+    "seedance-api-python",
+    "video-prompt-library",
+    "prompt-library",
     "prompt-gallery",
     "awesome-list"
   ],

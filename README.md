@@ -2,307 +2,172 @@
 
 <a href="https://www.hiapi.ai/en?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts"><img src="./assets/cover.svg" alt="Awesome Seedance 2.5 Prompts" width="100%"></a>
 
-[![HiAPI](https://img.shields.io/badge/HiAPI-One%20API%2C%20All%20AI%20Models-f97316?style=for-the-badge)](https://www.hiapi.ai/en?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) [![API Key](https://img.shields.io/badge/API%20Key-Free-111827?style=for-the-badge)](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) [![Seedance 2.5](https://img.shields.io/badge/Seedance%202.5-Launching-f97316?style=for-the-badge)](https://www.hiapi.ai/en/models?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) [![Docs](https://img.shields.io/badge/Docs-HiAPI-111827?style=for-the-badge)](https://docs.hiapi.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
+[![HiAPI](https://img.shields.io/badge/HiAPI-One%20API%2C%20All%20AI%20Models-f97316?style=for-the-badge)](https://www.hiapi.ai/en?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) [![API Key](https://img.shields.io/badge/API%20Key-Free-111827?style=for-the-badge)](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) [![Seedance 2.5](https://img.shields.io/badge/Seedance%202.5-Prompt%20Library-f97316?style=for-the-badge)](https://www.hiapi.ai/en/models?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) [![Docs](https://img.shields.io/badge/Docs-HiAPI-111827?style=for-the-badge)](https://docs.hiapi.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
 
-![Launch Tracking](https://img.shields.io/badge/Launch-Tracking-f59e0b) ![10](https://img.shields.io/badge/10%20Launch%20Templates-f97316) ![Day One](https://img.shields.io/badge/Real%20Clips-Day%20One-16a34a) ![Bilingual](https://img.shields.io/badge/EN%20%2F%20%E4%B8%AD%E6%96%87-111827)
+![15 cases](https://img.shields.io/badge/15%20Video%20Cases-f97316) ![Bilingual](https://img.shields.io/badge/EN%20%2F%20%E4%B8%AD%E6%96%87-111827) ![Case index](https://img.shields.io/badge/Preview%20Case%20Index-16a34a) ![SEO](https://img.shields.io/badge/Seedance%202.5%20Prompt%20Library-f59e0b)
 
 # Awesome Seedance 2.5 Prompts
 
-**The Seedance 2.5 prompt gallery — 30s single take, native 4K, 50 references, audio sync.**
+**A bilingual Seedance 2.5 prompt library for AI video creators, developers, and agents.**
 
-[HiAPI](https://www.hiapi.ai/en?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [API Key](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance 2.0 Gallery](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · [Docs](https://docs.hiapi.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [简体中文](README.zh-CN.md)
+[Run with HiAPI](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python) · [Browse data](./data/official-cases.json) · [中文](README.zh-CN.md) · [Seedance 2.0 prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · [Video skill](https://github.com/HiAPIAI/hiapi-seedance-2-5-video-skill)
 
-*Spec-accurate today · Real video output at launch · One API key*
+*Seedance 2.5 prompts · AI video prompt examples · text-to-video prompts · image-to-video prompts · 30-second video prompts · HiAPI video API*
 
 </div>
 
-> **HiAPI Matrix:** 🎨 [Image Prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) · 🎬 [Seedance 2.0 Prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · 🎬 **Seedance 2.5 Prompts (you are here)** · 🛠️ [Agent Skills](https://github.com/HiAPIAI/hiapi-skills) · 🤖 [Remote MCP](https://docs.hiapi.ai/for-ai/) · 📖 [API Docs](https://docs.hiapi.ai)
+> **HiAPI Matrix:** [Image Prompts](https://github.com/HiAPIAI/awesome-gpt-image-2-prompts) · [Seedance 2.0 Prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · **Seedance 2.5 Prompts** · [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python) · [Agent Skills](https://github.com/HiAPIAI/hiapi-skills) · [Remote MCP](https://docs.hiapi.ai/for-ai/) · [API Docs](https://docs.hiapi.ai)
 
-> ⭐ **Star + Watch this repo** — the moment Seedance 2.5 opens on HiAPI, every template below gets replaced with a real rendered clip, and new cases land daily during launch week.
+## Why This Repo
 
----
+Seedance 2.5 changes how video prompts are written. A short AI video prompt can describe one shot; a Seedance 2.5 prompt can direct a longer scene with continuity, references, text rendering, editing, audio rhythm, and a visible payoff. This repository turns those patterns into a practical, searchable library.
 
-## What This Is
+What you get:
 
-Seedance 2.5 is ByteDance's next-generation video model, announced at the Volcano Engine FORCE conference on June 23, 2026 and now rolling out. This repository is the **launch-ready prompt gallery** for it:
+- **15 Seedance 2.5 video case indexes** with direct MP4 links, aspect ratios, reference materials, and prompt themes.
+- **10 HiAPI-authored launch templates** in [`data/templates.json`](./data/templates.json), ready to adapt for product films, dialogue scenes, sports shots, ASMR, architecture, music, and time-lapse worlds.
+- **Bilingual SEO pages** for English and Chinese users searching for Seedance 2.5 prompts, AI video prompts, text-to-video prompt examples, image-to-video references, and 30-second video prompt structures.
+- **HiAPI API handoff** so a prompt can move from inspiration to an actual generation request when Seedance 2.5 is available through HiAPI.
 
-- **Today (pre-launch):** verified specs, a 2.5 vs 2.0 comparison, and 10 launch templates engineered for 2.5's headline capabilities — 30-second single takes, up to 50 multimodal references, native 4K, and audio-visual sync.
-- **At launch:** every template gets a real rendered clip via [HiAPI](https://www.hiapi.ai/en?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts), and this repo switches to the same real-clip quality bar as our [163-case Seedance 2.0 gallery](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts).
+> Prompt text from third-party source pages is not mirrored here in full. This repo indexes the cases and links back to the source page so you can copy the original prompt without modification. See [Sources and rights](#sources-and-rights).
 
-Until 2.5 opens, every template here also runs on **Seedance 2.0 today** — trim the timeline to ≤ 15s and drop the reference count. Each card notes how.
+## Case Gallery
 
-## Seedance 2.5 at a Glance
+Click any preview image to open and play the MP4. The videos stay on the source CDN; this repository does not re-host the video files.
 
-Announced specs, per ByteDance's FORCE conference keynote and press coverage. Independent verification pending — treat as claimed until real clips land here.
-
-| Capability | Seedance 2.5 (announced) | Seedance 2.0 (shipping on HiAPI) |
-|---|---|---|
-| Max single-take duration | **30s, one pass, no stitching** | 15s |
-| Resolution | **Native 4K** (not upscaled) | Up to 1080p on HiAPI today (model's 4K update rolling out) |
-| Reference inputs | **Up to 50** (images, audio, 3D white models, style refs) | 12 |
-| Color depth | **10-bit** | 8-bit |
-| Audio | **Co-generated in the same latent space** (native sync) | Supported |
-| Prompt adherence | Claimed **+20%** vs 2.0 | Baseline |
-| Architecture | Sparse Diffusion Transformer | Diffusion Transformer |
-| Pricing | **Not published** — do not trust "free unlimited" pages | ~per-second billing, see [HiAPI pricing](https://www.hiapi.ai/en/pricing?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) |
-
-**What 30s single-take actually changes:** prompt structure. A 15s prompt is a *shot*; a 30s prompt is a *scene* — you now direct arcs (setup → turn → payoff) with timecodes instead of describing one continuous motion. The templates below are built around that shift.
-
-## Real 2.5 Output: Official Showcase Breakdown
-
-The API is still closed — but ByteDance's own [launch page](https://ark.volcengine.com/promotion?modelName=seedance-2-5) already shows real 2.5 output. We pulled the first-screen 30-second one-take (steampunk ornithopter) and verified the file itself, so this analysis is based on actual footage, not marketing copy:
-
-| 0:02 — canyon of ancient books | 0:24 — moonlit ridge, same take |
+| Preview | Case |
 |---|---|
-| ![Official Seedance 2.5 one-take at 0:02](assets/showcase/official-30s-one-take-02s.jpg) | ![Official Seedance 2.5 one-take at 0:24](assets/showcase/official-30s-one-take-24s.jpg) |
+| [![Crystal Ball Match-Cut Film](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group1/1.mp4) | **1. Crystal Ball Match-Cut Film**<br>A fixed crystal ball with a Seedance mark stays sharp while scenes switch rapidly to electronic beats.<br><sub>text-to-video · 16:9</sub> |
+| [![Window Motif Brand Film](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group3/output.mp4) | **2. Window Motif Brand Film**<br>A reference-guided sequence moves through window-like motifs, water, fish, garden windows, stained glass, and eyes.<br><sub>image-to-video · 16:9</sub> |
+| [![Steampunk Ornithopter One-Take](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/firstScreen/group2/2.mp4) | **3. Steampunk Ornithopter One-Take**<br>A 30-second continuous steampunk miniature journey through gears, an ornithopter, a zoetrope, a cable car, glass waves, and a moon ridge.<br><sub>text-to-video · 16:9 · 30s</sub> |
+| [![Six Connected Rooms](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part1/tab1/group1/output.mp4) | **4. Six Connected Rooms**<br>A black-coated character walks across six rooms with the same structure but changing moods, visual styles, and reference-driven events.<br><sub>image-to-video · 16:9 · 30s</sub> |
+| [![Energy Bow Video Edit](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part2/group1/output.mp4) | **5. Energy Bow Video Edit**<br>A reference video keeps its character, motion, camera, and duration while an electric bow and arrow are added.<br><sub>video-editing · 16:9</sub> |
+| [![FPV Multilingual Hello](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/part3/group1/output.mp4) | **6. FPV Multilingual Hello**<br>A continuous FPV drone path forms eleven language greetings through clouds, fog, ribbons, waterfalls, reflections, fields, architecture, and fountains.<br><sub>image-to-video · 16:9 · 33s</sub> |
+| [![Creative Multilingual Text Loop](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-1.mp4) | **7. Creative Multilingual Text Loop**<br>A seamless loop where the idea of creation appears across multiple languages and visual-material styles.<br><sub>text-to-video · 16:9 · 15s</sub> |
+| [![Haute Couture Bokeh Film](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-1.mp4) | **8. Haute Couture Bokeh Film**<br>A high-fashion cinematic sequence built around macro light, piano performance, garden motion, slow reading, bubbles, and material detail.<br><sub>text-to-video · 3:4 · 30s</sub> |
+| [![Deep-Sea Jellyfish Seedance](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-1.mp4) | **9. Deep-Sea Jellyfish Seedance**<br>A blue coral reef scene adds softly glowing jellyfish and bubbles that form the word Seedance.<br><sub>text-to-video · 1:1</sub> |
+| [![Floating Desert Gallery](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-2.mp4) | **10. Floating Desert Gallery**<br>A minimalist white gallery floats above a golden desert, with the camera entering the surreal interior and opening back to sky.<br><sub>text-to-video · 1:1</sub> |
+| [![Desert Brand Concept Film](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-2.mp4) | **11. Desert Brand Concept Film**<br>A 30-second high-end desert fashion film uses inverted perspective, macro fashion details, LED stage reveal, and moonlit texture closeups.<br><sub>text-to-video · 16:9 · 30s</sub> |
+| [![Peking Opera Heritage Short](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-2.mp4) | **12. Peking Opera Heritage Short**<br>A warm, restrained heritage film follows a master and apprentice through Peking opera craft, costume, and handover.<br><sub>text-to-video · 3:4</sub> |
+| [![Theater of Oceanic Civilization](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/16-9/169-3.mp4) | **13. Theater of Oceanic Civilization**<br>An epic sci-fi ocean civilization sequence descends into deep ruins, awakens a sculptural lifeform, raises a temple ship, and pulls back to cosmic scale.<br><sub>text-to-video · 16:9 · 30s</sub> |
+| [![Mechanical Bloom](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/1-1/11-3.mp4) | **14. Mechanical Bloom**<br>A one-take macro push starts from a dark metal bud, enters precise mechanical petals, and climaxes with a full luminous bloom.<br><sub>text-to-video · 1:1</sub> |
+| [![Silk Road Pomegranate Journey](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4?x-tos-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast)](https://ark-common-storage-prod-cn-beijing.tos-cn-beijing.volces.com/presets/experience/gen_video/model-promotion/seedance-2-5/ugc/3-4/34-3.mp4) | **15. Silk Road Pomegranate Journey**<br>A rock-color flat animation follows pomegranate from branch, Silk Road travel, modern table, juice making, and poster-like close.<br><sub>text-to-video · 3:4 · 30s</sub> |
 
-![Frame-by-frame contact sheet of the official 30s one-take](assets/showcase/official-30s-one-take-contact-sheet.jpg)
+Structured metadata lives in [`data/official-cases.json`](./data/official-cases.json): video URLs, preview snapshots, reference images/videos, tags, categories, and prompt themes.
 
-**File-level verification (we checked, not quoted):**
+## Prompt Patterns
 
-- One unbroken **30.07-second** clip — no cuts, no stitching seams across the full frame sequence above
-- Promo-page export: 1280×720 @ 30fps, H.264 + AAC (the *model* claims native 4K; the page serves compressed web exports — judge 4K when the API opens)
-- Scene arc in a single take: mechanical ornithopter escapes a canyon of ancient books → brass gear fields → mechanical horse → glass waves and a sailing ship → moonlit ridge
+Use these as search and writing anchors when building your own Seedance 2.5 prompts:
 
-**Why this matters for prompting:** that's five distinct environments in one continuous camera move. You don't get there by describing a shot — you get there by writing a timecoded scene arc, which is exactly how the launch templates below are structured.
+| Pattern | Use it for | Strong case examples |
+|---|---|---|
+| 30-second single take | One continuous scene with setup, transformation, and payoff | Steampunk Ornithopter, Six Connected Rooms |
+| Match-cut rhythm | Fast background changes locked to music while the subject stays fixed | Crystal Ball Match-Cut |
+| Multi-reference control | Keeping multiple images aligned across a full clip | Window Motif Brand Film, Six Connected Rooms |
+| Controlled video edit | Changing one visual layer while keeping motion and timing intact | Energy Bow Video Edit |
+| Text inside the scene | Multilingual words formed by clouds, fog, water, architecture, or typography | FPV Multilingual Hello, Creative Multilingual Text Loop |
+| High-end brand film | Fashion, product, architecture, material closeups, and cinematic transitions | Haute Couture Bokeh, Desert Brand Concept Film, Floating Desert Gallery |
+| Stylized animation | Non-photoreal flat art with texture, story, and visual rhythm | Silk Road Pomegranate Journey |
 
-<sub>Stills are quoted from ByteDance's official Seedance 2.5 promotion page for analysis; the page states its assets were generated by Seedream/Seedance models. All rights belong to ByteDance. Watch the full clip on the [official page](https://ark.volcengine.com/promotion?modelName=seedance-2-5). Takedown requests: support@hiapi.ai.</sub>
+## HiAPI Launch Templates
 
-## Launch Templates
+The repository also includes 10 HiAPI-authored prompt templates designed for Seedance 2.5-style workloads. Unlike the indexed preview cases above, these are original templates and are included in full in [`data/templates.json`](./data/templates.json).
 
-Ten original prompt scaffolds engineered for 2.5's new capabilities. Each is written to be **runnable the hour the API opens** — and each includes a "run it on 2.0 today" fallback. Real output clips replace the placeholders at launch.
+| # | Template | Capability | Duration |
+|---|---|---|---|
+| 1 | The 30-Second One-Take Product Story | text-to-video | 30s |
+| 2 | Fifty-Reference Brand World | image-to-video | 20s |
+| 3 | Dialogue Scene with Native Audio Sync | text-to-video | 25s |
+| 4 | The Impossible Sports Broadcast | text-to-video | 30s |
+| 5 | Single-Take Cooking ASMR | text-to-video | 30s |
+| 6 | Character-Consistent Micro-Film | image-to-video | 30s |
+| 7 | The 4K Texture Torture Test | text-to-video | 20s |
+| 8 | Audio-Led Music Performance | image-to-video | 20s |
+| 9 | Architectural Walkthrough from a 3D White Model | image-to-video | 30s |
+| 10 | The Season-Cycle Time Compression | text-to-video | 30s |
 
-### 1. The 30-Second One-Take Product Story
+## Run a Prompt with HiAPI
 
-*Exercises: 30s single take, timecode direction, audio sync.*
-
-```text
-One unbroken 30-second tracking shot, cinematic product film, 4K, shallow depth of field.
-[00:00-00:08] Setup: dawn light through a workshop window, dust motes drifting; a craftsman's hands sand a raw wooden watch case; ambient sound: sandpaper rhythm, distant birds.
-[00:08-00:16] Turn: the camera glides across the workbench in one continuous move, past sketches and brass tools, as parts assemble in stop-motion-like beats matched to a soft percussive score.
-[00:16-00:26] Payoff: the finished watch rotates into a shaft of light, macro focus on the dial texture, score swells and resolves.
-[00:26-00:30] End card: the watch on dark slate, logo space negative on the right, sound decays to a single tick.
-No cuts, no scene transitions — one continuous camera move throughout.
-```
-
-<sub>**Run on 2.0 today:** keep [00:00-00:15] only, drop the end card. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
-### 2. Fifty-Reference Brand World
-
-*Exercises: multi-reference conditioning at a scale no other model accepts.*
-
-```text
-A 20-second brand film in the exact visual world defined by the attached references: product photos (refs 1-12), brand color swatches (refs 13-16), typography samples (refs 17-20), location scouting stills (refs 21-35), wardrobe details (refs 36-42), a 3D white model of the hero product (ref 43), and the target color-grade stills (refs 44-50).
-A model walks through the referenced location wearing the referenced wardrobe, picks up the hero product; every surface, color, and material must match the reference set, not generic interpretations.
-Camera: slow dolly-in, 35mm, 4K, 10-bit gradients on the dusk sky.
-```
-
-<sub>**Run on 2.0 today:** cap references at 12 — keep product + location + grade. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
-### 3. Dialogue Scene with Native Audio Sync
-
-*Exercises: co-generated audio, lip sync, scene-level acting.*
-
-```text
-25-second two-person dialogue scene, handheld documentary style, 4K.
-Interior, a late-night diner booth. CHARACTER A (60s, weathered, flannel) slides a folded map across the table. CHARACTER B (30s, sharp coat) doesn't touch it.
-A: "You said you'd never go back." (gravelly, quiet)
-B: "That was before they found the second one." (measured, tense)
-A long pause — only the diner hum, a coffee cup set down, rain on the window.
-B finally takes the map. Camera slowly pushes in over A's shoulder for the whole scene, one take.
-Audio native-synced: lips, cup, rain, room tone all coherent.
-```
-
-<sub>**Run on 2.0 today:** trim to one line each, 12s. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
-### 4. The Impossible Sports Broadcast
-
-*Exercises: long-horizon motion coherence, camera language.*
-
-```text
-30-second continuous broadcast-style shot, 4K: a parkour athlete crosses a rain-soaked rooftop district at dusk.
-[00:00-00:10] A drone camera locks onto her mid-run — vaults a vent, slides under a pipe; city neon reflects off wet concrete.
-[00:10-00:20] The "drone" dives off the roof edge with her, matching her wall-drop to a lower terrace without a cut, motion blur consistent with a real 24mm gimbal rig.
-[00:20-00:30] She lands, rolls, sprints toward the camera and past it; the camera whips 180° to follow her silhouette into a stairwell of light. Crowd noise and her breathing carry the audio, no music.
-Physics must stay consistent: momentum, wet-surface friction, fabric weight.
-```
-
-<sub>**Run on 2.0 today:** keep the first two beats, 15s. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
-### 5. Single-Take Cooking ASMR
-
-*Exercises: macro detail retention over 30s, native foley.*
-
-```text
-One 30-second overhead-to-macro one-take, 4K, 10-bit: hand-pulled noodles from dough to bowl.
-[00:00-00:08] Overhead: floured hands fold and stretch dough in hypnotic rhythm; audio: dough slaps, flour dust.
-[00:08-00:18] The camera descends and tilts to eye level as strands multiply between hands — steam rises from a wok behind, out of focus.
-[00:18-00:26] Noodles drop into rolling broth; macro on the boil, chili oil blooming in slow spirals.
-[00:26-00:30] A porcelain bowl slides into frame, chopsticks lift one strand, steam curls. Audio: pure ASMR foley, no music, no voice.
-```
-
-<sub>**Run on 2.0 today:** first two beats as a 12s clip. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
-### 6. Character-Consistent Micro-Film
-
-*Exercises: reference-locked character across a full scene arc.*
-
-```text
-Using the attached character sheet (refs 1-6: face turnaround, wardrobe, gait study) and location refs (7-14):
-A 30-second micro-film. The referenced character — same face, same coat, same walk — enters an empty train station at night, checks a paper timetable, realizes the last train is gone, and sits on the bench as the station lights shut off section by section behind him.
-Tone: quiet melancholy, sodium-vapor palette from grade refs (15-18).
-One slow lateral dolly the entire duration; the character's face must remain identity-consistent in every frame.
-Audio: distant announcements, fluorescent buzz, his footsteps — native sync.
-```
-
-<sub>**Run on 2.0 today:** 12 refs max, 15s, cut the light-shutdown beat. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
-### 7. The 4K Texture Torture Test
-
-*Exercises: native 4K + 10-bit — the shot that exposes upscalers.*
-
-```text
-20-second slow push-in, native 4K, 10-bit, tripod-stable:
-A single peacock feather stands in a glass inkwell on black velvet. Backlit by one warm tungsten beam.
-The camera pushes from full frame to extreme macro on the feather's eye — every barbule individually resolved, iridescence shifting cyan→emerald→bronze as the angle changes, micro-dust drifting through the beam.
-No cuts. The gradient in the dark falloff must stay smooth — no banding.
-```
-
-<sub>**Run on 2.0 today:** same prompt, 1080p, judge the difference at launch. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
-### 8. Audio-Led Music Performance
-
-*Exercises: audio-reference conditioning (feed a track, get matched visuals).*
-
-```text
-With the attached 20-second audio reference (ref 1: fingerstyle guitar, 92 BPM) and style refs (2-8):
-A 20-second performance film: a guitarist on a fire-escape landing at golden hour, playing the referenced track. String vibration, fret-hand movement, and strum pattern must match the audio beat-for-beat.
-Camera cuts are forbidden — one slow orbit from over-the-shoulder to front-on.
-City soft-focus below, laundry lines swaying in rhythm with the wind, 4K.
-```
-
-<sub>**Run on 2.0 today:** describe the music in text instead of attaching audio, 10s. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
-### 9. Architectural Walkthrough from a 3D White Model
-
-*Exercises: 3D white-model reference input — new in 2.5.*
-
-```text
-Using the attached 3D white model of the building (ref 1) and material/mood boards (refs 2-20):
-A 30-second real-estate walkthrough: the camera enters through the main door, crosses the double-height living space as morning light rakes through the referenced window mullions, ascends the floating staircase, and ends on the terrace facing the sea.
-Geometry must follow the white model exactly; materials and light follow the boards.
-One continuous stabilized move, 4K, interior ambience native-synced (footsteps on oak, gull cries at the terrace).
-```
-
-<sub>**Run on 2.0 today:** replace the white model with 4 elevation renders, 15s. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
-### 10. The Season-Cycle Time Compression
-
-*Exercises: long-horizon world consistency + gradual transformation.*
-
-```text
-One fixed-camera 30-second shot, 4K: the same oak tree on a hill, cycling through four seasons in one continuous take.
-[00:00-00:07] Spring — buds open, rain passes, grass greens.
-[00:07-00:15] Summer — full canopy, heat shimmer, cicadas in the audio bed.
-[00:15-00:23] Autumn — leaves turn and stream off in gusts, light goes amber.
-[00:23-00:30] Winter — bare branches gather snow, breath-fog of a passing deer, wind fades to silence.
-The tree's silhouette, the hill line, and the horizon must not drift. Transitions are gradual, not crossfades.
-```
-
-<sub>**Run on 2.0 today:** two seasons, 15s. · **Placeholder** — real 2.5 clip lands here at launch.</sub>
-
----
-
-## Run It on HiAPI
-
-Seedance 2.5 will be live on HiAPI at launch — **the code below is exactly what you'll run**, and it already works today with `"model": "seedance-2-0"`. One key, no queue-jumping between vendors.
+When Seedance 2.5 is available through HiAPI, the workflow is simple: pick a case pattern, paste or adapt a prompt, and send it to the unified task API.
 
 ```bash
-curl -X POST "https://api.hiapi.ai/v1/videos" \
+curl -X POST "https://api.hiapi.ai/v1/tasks" \
   -H "Authorization: Bearer $HIAPI_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
     "model": "seedance-2-5",
-    "prompt": "Paste a launch template from above",
-    "seconds": "30",
-    "resolution": "4k",
-    "ratio": "16:9"
+    "input": {
+      "prompt": "Paste your Seedance 2.5 prompt here",
+      "duration": 30,
+      "resolution": "1080p",
+      "aspect_ratio": "16:9"
+    }
   }'
 ```
 
-**Python**
+Python developers can use the focused Seedance SDK:
+
+```bash
+pip install hiapi-seedance
+```
 
 ```python
-import os
-import requests
+from hiapi_seedance import Seedance
 
-response = requests.post(
-    "https://api.hiapi.ai/v1/videos",
-    headers={
-        "Authorization": f"Bearer {os.environ['HIAPI_API_KEY']}",
-        "Content-Type": "application/json",
-    },
-    json={
-        "model": "seedance-2-5",  # works today with "seedance-2-0"
-        "prompt": "Paste a launch template from above",
-        "seconds": "30",
-        "resolution": "4k",
-        "ratio": "16:9",
-    },
+client = Seedance()
+task = client.text_to_video(
+    prompt="Paste your Seedance 2.5 prompt here",
+    duration=30,
+    aspect_ratio="16:9",
 )
-
-print(response.json())  # task id; poll the videos endpoint for the final URL
+print(task.output[0].url)
 ```
 
-**Node**
+For agent workflows, install the video skill:
 
-```js
-const response = await fetch("https://api.hiapi.ai/v1/videos", {
-  method: "POST",
-  headers: {
-    Authorization: `Bearer ${process.env.HIAPI_API_KEY}`,
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({
-    model: "seedance-2-5", // works today with "seedance-2-0"
-    prompt: "Paste a launch template from above",
-    seconds: "30",
-    resolution: "4k",
-    ratio: "16:9",
-  }),
-});
-
-console.log(await response.json()); // task id; poll the videos endpoint for the final URL
+```bash
+npx -y github:HiAPIAI/hiapi-seedance-2-5-video-skill -y
 ```
 
-> Model slug, duration, and resolution enums will be confirmed against the shipped API at launch. `seconds` and `resolution` above reflect announced capabilities; official pricing has **not** been published — ignore any page selling "unlimited Seedance 2.5" before ByteDance ships it.
+Links:
 
-Get a free API key: [Register on HiAPI](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [API Docs](https://docs.hiapi.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Pricing](https://www.hiapi.ai/en/pricing?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
+- [Get a HiAPI API key](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
+- [HiAPI pricing](https://www.hiapi.ai/en/pricing?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
+- [HiAPI API docs](https://docs.hiapi.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
+- [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python)
+- [Seedance 2.5 video generation skill](https://github.com/HiAPIAI/hiapi-seedance-2-5-video-skill)
 
-## Launch Roadmap
+## SEO Index
 
-- [x] Verified spec sheet + 2.5 vs 2.0 comparison
-- [x] 10 launch templates engineered for 30s / 50-ref / native-4K / audio-sync
-- [x] Official showcase breakdown — file-verified real 2.5 output analysis
-- [ ] **T+0:** Seedance 2.5 live on HiAPI — every template re-rendered with real clips
-- [ ] **T+0:** `hiapi-seedance-2-5-video-skill` published (agent-ready, one-line install)
-- [ ] **Launch week:** daily new cases with real output, community submissions open
-- [ ] **T+30:** full category system (Action, Commercial, POV, Reference-Driven, …) like the [2.0 gallery](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts)
+This repo is intentionally optimized for searchers looking for:
 
-## While You Wait
+- Seedance 2.5 prompts
+- Seedance 2.5 prompt library
+- Seedance 2.5 video prompt examples
+- AI video prompt library
+- text-to-video prompt examples
+- image-to-video reference prompts
+- 30 second AI video prompts
+- cinematic AI video prompts
+- multilingual AI video text prompts
+- AI video advertising prompts
+- HiAPI Seedance video API
+- Seedance 2.5 API examples
+- Seedance Python SDK
+- Seedance 2.5 API Python
 
-- 🎬 **[Awesome Seedance 2.0 Prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts)** — 163 cases, 8 categories, every one with a real rendered clip. The best 2.5 warm-up is shipping on 2.0 today.
-- 🛠️ **[hiapi-seedance-2-0-video-skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill)** — let your AI agent generate Seedance videos now; the 2.5 skill will install the same way.
-- ✍️ **[hiapi-video-prompt-generator-skill](https://github.com/HiAPIAI/hiapi-video-prompt-generator-skill)** — turn a one-line idea into a directed, timecoded prompt (exactly what 30s scenes need).
+Chinese page: [Seedance 2.5 提示词库](README.zh-CN.md)
 
 ## Contributing
 
-Pre-launch: spec corrections and template improvements are welcome — open an issue or PR. Post-launch, this repo switches to the real-clip quality bar: every submission needs a working video URL, full prompt, and creator attribution. See [CONTRIBUTING.md](./CONTRIBUTING.md).
+Submit reusable prompts, case links, or corrections through [CONTRIBUTING.md](./CONTRIBUTING.md). Keep the prompt reproducible, include a working video URL when available, and preserve source metadata for any third-party material.
 
-## Sources
+## Sources and Rights
 
-Specs summarized from public coverage of ByteDance's June 23, 2026 FORCE conference announcement: [The Information](https://www.theinformation.com/briefings/bytedance-unveils-seedance-2-5-video-model), [TNW](https://thenextweb.com/news/bytedance-seedance-2-5-ai-video-4k-30-seconds), [TechTimes](https://www.techtimes.com/articles/319639/20260703/bytedance-seedance-25-launches-this-week-30-second-ai-video-carries-copyright-cloud.htm). Capabilities are ByteDance's claims until independently verified. Seedance is a ByteDance model; this is an independent community gallery, not affiliated with or endorsed by ByteDance.
+The preview case index links to the public Seedance 2.5 promotion page and its visible case assets. HiAPI owns the curation, README structure, original launch templates, scripts, and JSON schema. Third-party source prompts, videos, images, brand names, and platform names are not relicensed by this repository. See [NOTICE.md](./NOTICE.md) for the full source and rights notice.
+
+Seedance is a ByteDance model. This repository is an independent prompt library and is not affiliated with or endorsed by ByteDance.
 
 ## License
 
-HiAPI-owned materials — curation, structure, original template prompts, scripts, and README layout — are released under [CC BY 4.0](LICENSE): reuse with attribution to HiAPI and a link back to this repository. Third-party brand and platform names are not covered — see [NOTICE.md](NOTICE.md).
+HiAPI-owned repository materials are released under [CC BY 4.0](LICENSE), with third-party material excluded as described in [NOTICE.md](NOTICE.md).

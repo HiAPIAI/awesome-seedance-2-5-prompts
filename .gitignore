@@ -4,3 +4,4 @@ outputs/
 .env
 .env.local
 *.log
+.gstack/

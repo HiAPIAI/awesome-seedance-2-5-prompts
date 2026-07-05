@@ -1,28 +1,38 @@
 # Contributing
 
-Thanks for considering a contribution. This repository is the launch gallery for **Seedance 2.5 video prompts** — pre-launch it holds spec-accurate launch templates; post-launch every entry gets a real rendered clip.
+Thanks for considering a contribution. This repository is a user-facing **Seedance 2.5 video prompt library** and case index. Good contributions help people understand a reusable video pattern, copy or adapt a prompt, and run it through HiAPI when available.
 
-## Pre-launch (now)
+## What We Accept
 
-- ✅ **Spec corrections.** If ByteDance publishes new official numbers (duration, references, resolution, pricing), open an issue with a source link.
-- ✅ **Template improvements.** Tighter timecode structure, better exercise of 2.5-specific capabilities (30s single take, 50 references, native 4K, audio sync).
-- ✅ **README / docs improvements.** Typos, clearer wording, missing translations.
-- ❌ **Unsourced spec claims or price guesses.** Vendor claims need a citation; pricing is unpublished — we don't speculate.
+- **Reusable prompt patterns.** Timecoded 30-second scenes, reference-driven generation, controlled edits, text-in-scene, advertising shots, stylized animation, or other patterns that a user can reproduce.
+- **Real video cases.** A working video URL plus enough metadata to understand ratio, duration, model, and prompt structure.
+- **Case-index improvements.** Better titles, tags, categories, reference URLs, broken-link fixes, and bilingual wording.
+- **Spec corrections.** If model limits, pricing, or API behavior changes, include a source link.
+- **README / docs improvements.** Typos, clearer wording, missing translations, and SEO improvements that still read naturally.
 
-## Post-launch
+## Quality Bar
 
-The quality bar switches to the same as our [Seedance 2.0 gallery](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts):
+- **Reproducible.** A user should understand what to paste, what references are needed, and what kind of output to expect.
+- **Specific.** Avoid vague prompts like "make it cinematic"; describe subject, motion, camera, timing, texture, and payoff.
+- **Attributed.** If the prompt, video, or idea originated elsewhere, include the source URL and creator handle. We do not strip credit.
+- **Rights-aware.** Do not paste large third-party prompt dumps into the repo. Link to the source and summarize the reusable pattern.
+- **Bilingual when useful.** Either `title_en` or `title_zh` is required; both is better.
+- **No price guesses.** Do not add unverified Seedance 2.5 pricing or model limits.
 
-- **Real video, not promises.** Each entry must include a working video URL.
-- **Reproducible.** Pasting the prompt into HiAPI `POST /v1/videos` with the listed model + ratio + duration should produce a visually similar clip.
-- **Attribution preserved.** If the prompt or video originated elsewhere, link the source and the creator handle. We never strip credit.
-- **English first, Chinese welcome.** Either `title_en` or `title_zh` is required; both is better.
+Submit via the issue template or a PR against the relevant data file:
 
-Submit via the issue template (opens at launch) or a PR against `data/templates.json` following the existing field structure, then run `node scripts/validate.mjs`.
+- `data/templates.json` for HiAPI-authored reusable templates.
+- `data/official-cases.json` for case-index metadata and source links.
+
+Then run:
+
+```bash
+node scripts/validate.mjs
+```
 
 ## Reporting problems
 
-Open an issue with the template ID (e.g. `one-take-product-story`) and what's wrong. We treat broken attribution as a P1.
+Open an issue with the template ID or case ID and what's wrong. We treat broken attribution as a P1.
 
 ## Code of conduct
 

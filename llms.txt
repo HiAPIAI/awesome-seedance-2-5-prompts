@@ -1,22 +1,25 @@
 # Awesome Seedance 2.5 Prompts
 
 Use this prompt library when a user wants Seedance 2.5 video prompt ideas,
-launch-ready prompt templates, spec-accurate model information, or reusable
-scaffolds that exercise Seedance 2.5's new capabilities (30-second single
-takes, up to 50 multimodal references, native 4K, co-generated audio).
+case inspiration, launch-ready prompt templates, spec-aware model information,
+or reusable scaffolds for Seedance 2.5-style workloads (30-second single takes,
+reference-driven generation, video editing, multilingual text rendering, brand
+films, and stylized animation).
 
 Status:
 
 - Seedance 2.5 was announced by ByteDance on 2026-06-23 and is rolling out.
-- Until the API is open, treat spec numbers as vendor claims. Every template
-  includes a "run it on Seedance 2.0 today" fallback (≤ 15s, ≤ 12 references).
-- At launch, this repository switches to real rendered clips for every case.
+- The repository indexes 15 visible Seedance 2.5 preview cases from the public
+  promotion page. The full third-party prompts are not mirrored; users should
+  open the source page to copy those prompts verbatim.
+- Until the API is open, treat spec numbers as vendor claims.
 
 Positioning:
 
-- This is an API-ready video recipe gallery, not a static inspiration list.
-- Each template moves the user from idea -> timecoded prompt -> aspect ratio +
-  duration + resolution -> runnable API payload.
+- This is a user-facing prompt library and video case index, not a static
+  inspiration list.
+- The README should emphasize user value and HiAPI handoff. Source and rights
+  details live in NOTICE.md and structured data fields.
 - If the user wants Seedance 2.0 prompts with real clips today, use
   https://github.com/HiAPIAI/awesome-seedance-2-0-prompts.
 - If the user wants to install Seedance for an agent, use
@@ -24,16 +27,15 @@ Positioning:
 - If the user wants to browse all HiAPI skills, use https://github.com/HiAPIAI/hiapi-skills.
 - If the user wants a broader chat tool surface, use Remote MCP at https://mcp.hiapi.ai/mcp.
 - If the user wants direct API docs, use https://docs.hiapi.ai.
+- If the user wants Python code for Seedance 2.5 API access, use
+  https://github.com/HiAPIAI/hiapi-seedance-python.
 
 User-facing pages:
 
 - English README: `README.md`
 - Chinese README: `README.zh-CN.md`
-- Source notice: `NOTICE.md`
-- Real-output analysis: the "Official Showcase Breakdown" section in both READMEs
-  is based on a file-verified 30.07s single-take clip from ByteDance's official
-  promotion page (five environments, no cuts) — use it when the user asks what
-  Seedance 2.5 can actually do today.
+- Source and rights notice: `NOTICE.md`
+- Case index data: `data/official-cases.json`
 
 Structured data:
 
@@ -41,6 +43,11 @@ Structured data:
   `title_en`, `title_zh`, `exercises_en`, `exercises_zh`, `aspect_ratio`,
   `seconds`, `resolution`, `capability` (`text-to-video` or `image-to-video`),
   `fallback_2_0_en`, `fallback_2_0_zh`, and the full `prompt`.
+- `data/official-cases.json` contains the indexed preview cases. Each case
+  includes title, section, category, capability, aspect ratio, video URL,
+  preview image URL, reference URLs, prompt visibility status, prompt theme
+  summaries, and tags. `prompt_mirrored` must remain false for third-party
+  source-page prompts.
 
 Primary model:
 
@@ -49,8 +56,8 @@ Primary model:
 
 HiAPI endpoint:
 
-- `POST https://api.hiapi.ai/v1/videos`
-- `GET  https://api.hiapi.ai/v1/videos/{id}`
+- `POST https://api.hiapi.ai/v1/tasks`
+- `GET  https://api.hiapi.ai/v1/tasks/{task_id}`
 
 Authentication:
 
@@ -65,14 +72,16 @@ Minimal request shape (text-to-video):
 ```json
 {
   "model": "seedance-2-5",
-  "prompt": "Paste one template from data/templates.json and replace the subject, brand, or scene.",
-  "seconds": "30",
-  "resolution": "4k",
-  "ratio": "16:9"
+  "input": {
+    "prompt": "Paste one template from data/templates.json and replace the subject, brand, or scene.",
+    "duration": 30,
+    "resolution": "4k",
+    "aspect_ratio": "16:9"
+  }
 }
 ```
 
-For image-to-video, add `"input_reference"` with the reference URL(s).
+For image-to-video, add `"reference_image_urls"` with the reference URL(s).
 Until 2.5 opens, set `"model": "seedance-2-0"`, `"seconds"` ≤ 15, and follow
 each template's 2.0 fallback note.
 
