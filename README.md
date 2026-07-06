@@ -10,7 +10,7 @@
 
 **A bilingual Seedance 2.5 prompt library for AI video creators, developers, and agents.**
 
-[Run with HiAPI](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python) · [Browse data](./data/official-cases.json) · [中文](README.zh-CN.md) · [Seedance 2.0 prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · [Video skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill)
+[Run with HiAPI](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance 2.5 API docs](https://docs.hiapi.ai/models/video/seedance-2-5/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python) · [Browse data](./data/official-cases.json) · [中文](README.zh-CN.md) · [Seedance 2.0 prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · [Video skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill)
 
 *Seedance 2.5 prompts · AI video prompt examples · text-to-video prompts · image-to-video prompts · 30-second video prompts · HiAPI video API*
 
@@ -134,6 +134,7 @@ Links:
 
 - [Get a HiAPI API key](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
 - [HiAPI pricing](https://www.hiapi.ai/en/pricing?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
+- [Seedance 2.5 API docs — release date, specs, day-one access](https://docs.hiapi.ai/models/video/seedance-2-5/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
 - [HiAPI API docs](https://docs.hiapi.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
 - [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python)
 - [Seedance video generation skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill) — the 2.5 edition ships at launch

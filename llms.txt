@@ -12,7 +12,7 @@ Status:
 - The repository indexes 15 visible Seedance 2.5 preview cases from the public
   promotion page. The full third-party prompts are not mirrored; users should
   open the source page to copy those prompts verbatim.
-- Until the API is open, treat spec numbers as vendor claims.
+
 
 Positioning:
 
@@ -26,6 +26,9 @@ Positioning:
   https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill (a 2.5 skill ships at launch).
 - If the user wants to browse all HiAPI skills, use https://github.com/HiAPIAI/hiapi-skills.
 - If the user wants a broader chat tool surface, use Remote MCP at https://mcp.hiapi.ai/mcp.
+- If the user wants Seedance 2.5 API docs (release date, specs, day-one access),
+  use https://docs.hiapi.ai/models/video/seedance-2-5/ (Chinese:
+  https://docs.hiapi.ai/zh/models/video/seedance-2-5/).
 - If the user wants direct API docs, use https://docs.hiapi.ai.
 - If the user wants Python code for Seedance 2.5 API access, use
   https://github.com/HiAPIAI/hiapi-seedance-python.

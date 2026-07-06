@@ -10,7 +10,7 @@
 
 **面向创作者、开发者和 AI Agent 的双语 Seedance 2.5 提示词库。**
 
-[用 HiAPI 运行](https://www.hiapi.ai/zh/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python) · [结构化数据](./data/official-cases.json) · [English](README.md) · [Seedance 2.0 提示词库](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · [视频生成 Skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill)
+[用 HiAPI 运行](https://www.hiapi.ai/zh/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance 2.5 API 文档](https://docs.hiapi.ai/zh/models/video/seedance-2-5/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python) · [结构化数据](./data/official-cases.json) · [English](README.md) · [Seedance 2.0 提示词库](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · [视频生成 Skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill)
 
 *Seedance 2.5 提示词 · AI 视频提示词 · 文生视频提示词 · 图生视频提示词 · 30 秒视频提示词 · HiAPI 视频 API*
 
@@ -136,6 +136,7 @@ npx -y github:HiAPIAI/hiapi-seedance-2-0-video-skill -y
 
 - [免费获取 HiAPI API Key](https://www.hiapi.ai/zh/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
 - [HiAPI 定价](https://www.hiapi.ai/zh/pricing?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
+- [Seedance 2.5 API 文档 —— 发布时间、规格、发售即支持](https://docs.hiapi.ai/zh/models/video/seedance-2-5/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
 - [HiAPI API 文档](https://docs.hiapi.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
 - [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python)
 - [Seedance 视频生成 Skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill) —— 2.5 版本上线日发布
