@@ -10,7 +10,7 @@
 
 **A bilingual Seedance 2.5 prompt library for AI video creators, developers, and agents.**
 
-[Run with HiAPI](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python) · [Browse data](./data/official-cases.json) · [中文](README.zh-CN.md) · [Seedance 2.0 prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · [Video skill](https://github.com/HiAPIAI/hiapi-seedance-2-5-video-skill)
+[Run with HiAPI](https://www.hiapi.ai/en/register?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts) · [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python) · [Browse data](./data/official-cases.json) · [中文](README.zh-CN.md) · [Seedance 2.0 prompts](https://github.com/HiAPIAI/awesome-seedance-2-0-prompts) · [Video skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill)
 
 *Seedance 2.5 prompts · AI video prompt examples · text-to-video prompts · image-to-video prompts · 30-second video prompts · HiAPI video API*
 
@@ -126,7 +126,8 @@ print(task.output[0].url)
 For agent workflows, install the video skill:
 
 ```bash
-npx -y github:HiAPIAI/hiapi-seedance-2-5-video-skill -y
+npx -y github:HiAPIAI/hiapi-seedance-2-0-video-skill -y
+# the Seedance 2.5 skill ships here the day the model opens
 ```
 
 Links:
@@ -135,7 +136,7 @@ Links:
 - [HiAPI pricing](https://www.hiapi.ai/en/pricing?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
 - [HiAPI API docs](https://docs.hiapi.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome-seedance-2-5-prompts)
 - [Seedance Python SDK](https://github.com/HiAPIAI/hiapi-seedance-python)
-- [Seedance 2.5 video generation skill](https://github.com/HiAPIAI/hiapi-seedance-2-5-video-skill)
+- [Seedance video generation skill](https://github.com/HiAPIAI/hiapi-seedance-2-0-video-skill) — the 2.5 edition ships at launch
 
 ## SEO Index
 
