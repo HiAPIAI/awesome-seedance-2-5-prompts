@@ -9,9 +9,9 @@ films, and stylized animation).
 Status:
 
 - Seedance 2.5 was announced by ByteDance on 2026-06-23 and is rolling out.
-- The repository indexes 15 visible Seedance 2.5 preview cases from the public
-  promotion page. The full third-party prompts are not mirrored; users should
-  open the source page to copy those prompts verbatim.
+- The repository contains 15 Seedance 2.5 cases with full bilingual prompts
+  (prompt_en / prompt_zh in data/official-cases.json), local preview images
+  under images/, and 10 additional launch templates in data/templates.json.
 
 
 Positioning:

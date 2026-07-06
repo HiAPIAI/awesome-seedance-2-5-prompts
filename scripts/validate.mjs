@@ -122,8 +122,11 @@ for (const [index, item] of officialCases.cases.entries()) {
       }
     }
   }
-  if (item.prompt_mirrored !== false) {
-    errors.push(`${where}: prompt_mirrored must stay false for third-party official page prompts`);
+  if (typeof item.prompt_mirrored !== 'boolean') {
+    errors.push(`${where}: prompt_mirrored must be a boolean`);
+  }
+  if (item.prompt_mirrored === true && (!item.prompt_en || !item.prompt_zh)) {
+    errors.push(`${where}: mirrored cases must include prompt_en and prompt_zh`);
   }
 }
 
